@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>p</span>romise.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Promise</span> <br> Ugochukwu Ezebunwa From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/pro1.PNG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis tenetur consequuntur, accusamus earum 
+                        blanditiis ipsum laboriosam cumque tempore tempora 
+                        repellendus soluta iusto, esse, voluptates maiores 
+                        alias labore laborum! Excepturi veritatis numquam animi.
+                        Architecto, amet impedit fugit consequatur eaque obcaecati
+                        consectetur officia debitis sapiente aperiam atque error, 
+                        quae repellendus perspiciatis veniam.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - 2020</span><br>UI/UX Desing Training at DMZ Tech</li>
+                            <li><span>2019 - 2020</span><br>Web Development Training at DMZ Tech</li>
+                            <li><span>2021 - Current</span><br>Internship at DMZ Tech</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>UI/UX Design Training at DMZ Tech</li>
+                            <li><span>2021</span><br>MBA from DMZ Tech</li>
+                            <li><span>2022</span><br>BBA from DMZ Tech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Laudantium, quod dolorum nesciunt modi similique ipsa
+                          odit laboriosam cum doloribus id?
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Laudantium, quod dolorum nesciunt modi similique ipsa
+                          odit laboriosam cum doloribus id?
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-mobile"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Laudantium, quod dolorum nesciunt modi similique ipsa
+                          odit laboriosam cum doloribus id?
+                        </p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/pexels-tracy-le-blanc-607812.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Social Media Website</h3>
+                        <p>This website gives you a list of the best, fastest and most reliable social media apps around the world.
+                            Visit website today
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/pexels-tranmautritam-251225.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>The website allows you to get the best deals from online markets around world.
+                            Visit website today
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/pexels-pixabay-270348.jpg" alt="" srcset="">
+                    <div class="layer">
+                        <h3>Web Developement Website</h3>
+                        <p>This website gives you the opptunity to meet with the most talented web developers from around the world.
+                            Visit website today
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>ezebunwapromise@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>09013809434</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/CORRECTION.docx"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Promise. Made by <i class="fas fa-heart"></i> Promise Ugochukwu Ezebunwa</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+           for(tablink of tablinks){
+               tablink.classList.remove("active-link");
+           }
+
+           for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+           }
+
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+       }
+   </script>
+
+   <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+   </script>
+</body>
+</html>
